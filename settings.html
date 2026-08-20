@@ -1,0 +1,46 @@
+<div class="elabs-conv-settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b>ElevenLabs Realtime Dialogue</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+
+        <div class="inline-drawer-content">
+            <label class="checkbox_label" for="elabs_conv_enabled">
+                <input id="elabs_conv_enabled" type="checkbox">
+                <span>Enabled</span>
+            </label>
+
+            <label for="elabs_conv_api_key">API key</label>
+            <input id="elabs_conv_api_key" class="text_pole" type="password" autocomplete="off"
+                   placeholder="xi-api-key">
+
+            <label for="elabs_conv_model">Model</label>
+            <select id="elabs_conv_model" class="text_pole">
+                <option value="eleven_v3">eleven_v3 (up to 10 voices)</option>
+                <option value="eleven_v3_conversational">eleven_v3_conversational (single voice)</option>
+            </select>
+
+            <label for="elabs_conv_format">Output format</label>
+            <select id="elabs_conv_format" class="text_pole"></select>
+
+            <label class="checkbox_label" for="elabs_conv_narrate_user">
+                <input id="elabs_conv_narrate_user" type="checkbox">
+                <span>Also speak user messages</span>
+            </label>
+
+            <label class="checkbox_label" for="elabs_conv_strip_markup">
+                <input id="elabs_conv_strip_markup" type="checkbox">
+                <span>Strip markup before sending</span>
+            </label>
+
+            <hr>
+
+            <label>Voice map</label>
+            <small class="elabs-conv-hint">Maps each character to an ElevenLabs voice id.</small>
+            <div id="elabs_conv_voice_map"></div>
+
+            <div class="elabs-conv-status" id="elabs_conv_status">Not connected.</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ElevenLabs Text to Dialogue WebSocket docs
+    url: https://elevenlabs.io/docs/eleven-api/guides/how-to/websockets/realtime-tdd
+    about: Protocol reference for the endpoint this extension talks to.
+  - name: SillyTavern extension docs
+    url: https://docs.sillytavern.app/for-contributors/writing-extensions/
+    about: How third-party extensions are loaded and structured.

@@ -1,0 +1,31 @@
+{
+  "name": "elabs-conv",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SillyTavern extension that streams dialogue to the ElevenLabs Text to Dialogue realtime WebSocket API.",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "check:manifest": "node scripts/check-manifest.mjs"
+  },
+  "keywords": [
+    "sillytavern",
+    "sillytavern-extension",
+    "elevenlabs",
+    "tts",
+    "text-to-dialogue",
+    "websocket"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oanon-ak/elabs-conv.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "eslint": "^9.14.0"
+  }
+}

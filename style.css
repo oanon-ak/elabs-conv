@@ -1,0 +1,32 @@
+.elabs-conv-settings label {
+    display: block;
+    margin-top: 0.5em;
+}
+
+.elabs-conv-settings .elabs-conv-hint {
+    display: block;
+    opacity: 0.7;
+    margin-bottom: 0.4em;
+}
+
+.elabs-conv-settings .elabs-conv-status {
+    margin-top: 0.75em;
+    padding: 0.4em 0.6em;
+    border-radius: 4px;
+    background-color: var(--black30a);
+    font-size: 0.9em;
+}
+
+.elabs-conv-settings .elabs-conv-status[data-state='connected'] {
+    color: var(--active);
+}
+
+.elabs-conv-settings .elabs-conv-status[data-state='error'] {
+    color: var(--warning, #d9534f);
+}
+
+#elabs_conv_voice_map {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35em;
+}

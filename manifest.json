@@ -1,0 +1,10 @@
+{
+  "display_name": "ElevenLabs Realtime Dialogue",
+  "author": "oanon-ak",
+  "js": "index.js",
+  "css": "style.css",
+  "version": "0.1.0",
+  "loading_order": 100,
+  "auto_update": true,
+  "homePage": "https://github.com/oanon-ak/elabs-conv"
+}
